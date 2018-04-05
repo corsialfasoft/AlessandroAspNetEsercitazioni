@@ -21,5 +21,10 @@ namespace AspNetMVCEsercitazioni.Controllers {
 
             return View();
         }
+         public ActionResult MiaPagina() {
+            ViewBag.Message = "Questo messaggio e stato passato dall'ActionResult";
+
+            return View();
+        }
     }
 }
